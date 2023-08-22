@@ -12,7 +12,6 @@ with the tutorship of Dr. Ing. Mohamed-Bécha Kaâniche.
 
 The goal of this project is the conception and realization of a full prototype of a smart parking with the ability to book and pay remotely which reduces the travel time, carbon emission, search time, traffic congestions in the city. In addition, it improves traffic flow within the parking lot with efficient design and creating a safer ecosystem for the guests.
 This project will help us show the availability of car slots to park the vehicle. This is implemented by using **Raspberry Pi** and multiple sensors.
-## Live Demo:
 ## Installation Guide:
 ## Technologies:
 Multiple technologies, packages and hardware sensors were used in order to develop our his project, the technologies are diverse and used for backend and frontend development.
@@ -34,7 +33,8 @@ Multiple technologies, packages and hardware sensors were used in order to devel
   - IR sensor
   - NFC/RFID reader
   - 12V Raspberry Pi power supply
-![2](https://user-images.githubusercontent.com/80635318/213720751-26384d28-60df-411b-87d1-86fa093a9d0f.PNG) 
+  
+  ![dd](https://user-images.githubusercontent.com/80635318/213831599-5678c95b-d610-46e5-95d3-98d2f38b5353.PNG)
 ## Deployment Server:
 We used our free Microsoft accounts in order to sign in and get 100$ offred by Microsoft Azure. This allowed us to create a virtual machine capable of hosting the Middleware (i.e. **Jakarta EE**), the MQTT Broker (i.e. **Mosquitto**) and handle several requests without delay. The characteristics of the virtual machine are as follow:
 * Ram: 1 GB
@@ -43,18 +43,17 @@ We used our free Microsoft accounts in order to sign in and get 100$ offred by M
 The VM is hosted in East-Europe and top-notch internet connection.
 
 ## Sensors and the IoT prototype:
-(tsawer el iot parking)
-
-
+![Capture](https://user-images.githubusercontent.com/80635318/213831244-745a89a3-1f8e-4801-88bf-f1eee1ccfc44.PNG)
 
 ## Certification and Grading:
 HTTPS was enabled using Let's Encrypt's Certbot, allowing us to verify the ownership of our domain **www.modernparker.me** and to make connections to our website secure. We also generated stronger Dephi-Helman parameters for the TLS connection with a length of 4096 bits. Thanks to this, and also thanks to some Jakarta EE parameters, we were able to disable **TLS 1.3** and enforce a stronger communication with our project. We were able to **grade A** validation from SSLLabs as Overall Rating.
 ![thumbnail_Capture d’écran 2023-01-20 154213](https://user-images.githubusercontent.com/80635318/213726218-17b709ac-3e25-4ec6-adb8-a671345040d7.png)
 ## Solution Screenshots:
-(tsawer el mobile )
+![imags](https://user-images.githubusercontent.com/80635318/213830879-76435fc4-66d0-45fa-8d14-06947668e2a6.PNG)
+
 ## Further Readings:
-
-
-
+You can find more information and take a look at the architecture design with the following documents:
+-  [Design_Document](Design_Document.pdf)
+-  [Scope of statement](Scope%20of%20statement.pdf)
 
 
